@@ -8,8 +8,8 @@ int main() {
     for(int i = 0; i < n; i++){
         int num;
         cin >> num;
-        if(!(num % 3)) cout << num << '\n';
+        if(!(num % 3) && (num % 2)) cout << num << '\n';
     }
-    
+
     return 0;
 }
