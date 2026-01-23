@@ -2,9 +2,8 @@
 using namespace std;
 
 int main() {
-    int a, b;
+    int a, b, prod = 1;
     cin >> a >> b;
-    int prod = 1;
 
     for(int i = 0; i < b; i++) prod *= a;
 
